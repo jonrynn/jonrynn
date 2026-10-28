@@ -1,0 +1,1015 @@
+<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Production System</title>
+<defs>
+	<rect id="box" width="25" height="25" style="stroke:black;"/>
+</defs>
+<rect id="ReproductionMachinerybox" x="75.0" y="45.0" width="525.0" height="275.0" style="fill:white;stroke:grey;stroke-dasharray:3,3"/>
+<text   x="425.0" y="65.0">Reproduction Machinery Stage</text>
+    <g id="MatrixReproductionMachineryFixedCapital">
+        <g id="SectorRFSS">
+            <use xlink:href="#box" x="200.0" y="100.0" style="fill:white" />
+          	<text id="SectorRFSSText" style="display:none" x="201.0" y="112.0">Stru</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorRFSSText"/>
+        </g>
+        <g id="SectorRFSM">
+            <use xlink:href="#box" x="225.0" y="100.0" style="fill:lightgoldenrodyellow" />
+          	<text id="SectorRFSMText" style="display:none" x="226.0" y="112.0">Mate</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorRFSMText"/>
+        </g>
+        <g id="SectorRFSE">
+            <use xlink:href="#box" x="250.0" y="100.0" style="fill:pink" />
+          	<text id="SectorRFSEText" style="display:none" x="251.0" y="112.0">Ener</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorRFSEText"/>
+        </g>
+        <g id="SectorRFSI">
+            <use xlink:href="#box" x="275.0" y="100.0" style="fill:lightblue" />
+          	<text id="SectorRFSIText" style="display:none" x="276.0" y="112.0">Info</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorRFSIText"/>
+        </g>
+<text   x="302.0" y="112.0">Structural</text>
+        <g id="SectorRFMS">
+            <use xlink:href="#box" x="200.0" y="125.0" style="fill:lightgoldenrodyellow" />
+          	<text id="SectorRFMSText" style="display:none" x="201.0" y="137.0">Stru</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorRFMSText"/>
+        </g>
+        <g id="SectorRFMM">
+            <use xlink:href="#box" x="225.0" y="125.0" style="fill:yellow" />
+          	<text id="SectorRFMMText" style="display:none" x="226.0" y="137.0">Mate</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorRFMMText"/>
+        </g>
+        <g id="SectorRFME">
+            <use xlink:href="#box" x="250.0" y="125.0" style="fill:#ffd000" />
+          	<text id="SectorRFMEText" style="display:none" x="251.0" y="137.0">Ener</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorRFMEText"/>
+        </g>
+        <g id="SectorRFMI">
+            <use xlink:href="#box" x="275.0" y="125.0" style="fill:lightgreen" />
+          	<text id="SectorRFMIText" style="display:none" x="276.0" y="137.0">Info</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorRFMIText"/>
+        </g>
+<text   x="302.0" y="137.0">Material</text>
+        <g id="SectorRFES">
+            <use xlink:href="#box" x="200.0" y="150.0" style="fill:pink" />
+          	<text id="SectorRFESText" style="display:none" x="201.0" y="162.0">Stru</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorRFESText"/>
+        </g>
+        <g id="SectorRFEM">
+            <use xlink:href="#box" x="225.0" y="150.0" style="fill:#ffd000" />
+          	<text id="SectorRFEMText" style="display:none" x="226.0" y="162.0">Mate</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorRFEMText"/>
+        </g>
+        <g id="SectorRFEE">
+            <use xlink:href="#box" x="250.0" y="150.0" style="fill:red" />
+          	<text id="SectorRFEEText" style="display:none" x="251.0" y="162.0">Ener</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorRFEEText"/>
+        </g>
+        <g id="SectorRFEI">
+            <use xlink:href="#box" x="275.0" y="150.0" style="fill:plum" />
+          	<text id="SectorRFEIText" style="display:none" x="276.0" y="162.0">Info</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorRFEIText"/>
+        </g>
+<text   x="302.0" y="162.0">Energy-Converting</text>
+        <g id="SectorRFIS">
+            <use xlink:href="#box" x="200.0" y="175.0" style="fill:lightblue" />
+          	<text id="SectorRFISText" style="display:none" x="201.0" y="187.0">Stru</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorRFISText"/>
+        </g>
+        <g id="SectorRFIM">
+            <use xlink:href="#box" x="225.0" y="175.0" style="fill:lightgreen" />
+          	<text id="SectorRFIMText" style="display:none" x="226.0" y="187.0">Mate</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorRFIMText"/>
+        </g>
+        <g id="SectorRFIE">
+            <use xlink:href="#box" x="250.0" y="175.0" style="fill:plum" />
+          	<text id="SectorRFIEText" style="display:none" x="251.0" y="187.0">Ener</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorRFIEText"/>
+        </g>
+        <g id="SectorRFII">
+            <use xlink:href="#box" x="275.0" y="175.0" style="fill:blue" />
+          	<text id="SectorRFIIText" style="display:none" x="276.0" y="187.0">Info</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorRFIIText"/>
+        </g>
+<text   x="302.0" y="187.0">Information-Processing</text>
+    </g>
+<path d=" M 206.0,200.0 L 206.0,230.0 L 169.0,230.0 L 169.0,112.0 L 200.0,112.0 " 
+ stroke="grey" fill="none" 
+id="PathFromRFISToRFSS" />
+<circle r="5" style="fill:white;stroke:black;" id = "CircleForCirclePathFromRFISToRFSS"/>
+<path d=" M 206.0,200.0 L 206.0,230.0 L 169.0,230.0 L 169.0,112.0 L 200.0,112.0 L 300.0,112.0 " 
+ stroke="none" fill="none" 
+id="CirclePathFromRFISToRFSS" />
+<animateMotion xlink:href="#CircleForCirclePathFromRFISToRFSS"
+  dur="5s" repeatCount="indefinite">
+  <mpath xlink:href="#CirclePathFromRFISToRFSS" />
+</animateMotion>
+
+<path d=" M 231.0,200.0 L 231.0,242.0 L 157.0,242.0 L 157.0,137.0 L 200.0,137.0 " 
+ stroke="yellow" fill="none" 
+id="PathFromRFIMToRFMS" />
+<circle r="5" style="fill:yellow;stroke:black;" id = "CircleForCirclePathFromRFIMToRFMS"/>
+<path d=" M 231.0,200.0 L 231.0,242.0 L 157.0,242.0 L 157.0,137.0 L 200.0,137.0 L 300.0,137.0 " 
+ stroke="none" fill="none" 
+id="CirclePathFromRFIMToRFMS" />
+<animateMotion xlink:href="#CircleForCirclePathFromRFIMToRFMS"
+  dur="5s" repeatCount="indefinite">
+  <mpath xlink:href="#CirclePathFromRFIMToRFMS" />
+</animateMotion>
+
+<path d=" M 256.0,200.0 L 256.0,255.0 L 145.0,255.0 L 145.0,162.0 L 200.0,162.0 " 
+ stroke="red" fill="none" 
+id="PathFromRFIEToRFES" />
+<circle r="5" style="fill:red;stroke:black;" id = "CircleForCirclePathFromRFIEToRFES"/>
+<path d=" M 256.0,200.0 L 256.0,255.0 L 145.0,255.0 L 145.0,162.0 L 200.0,162.0 L 300.0,162.0 " 
+ stroke="none" fill="none" 
+id="CirclePathFromRFIEToRFES" />
+<animateMotion xlink:href="#CircleForCirclePathFromRFIEToRFES"
+  dur="5s" repeatCount="indefinite">
+  <mpath xlink:href="#CirclePathFromRFIEToRFES" />
+</animateMotion>
+
+<path d=" M 281.0,200.0 L 281.0,267.0 L 133.0,267.0 L 133.0,187.0 L 200.0,187.0 " 
+ stroke="blue" fill="none" 
+id="PathFromRFIIToRFIS" />
+<circle r="5" style="fill:blue;stroke:black;" id = "CircleForCirclePathFromRFIIToRFIS"/>
+<path d=" M 281.0,200.0 L 281.0,267.0 L 133.0,267.0 L 133.0,187.0 L 200.0,187.0 L 300.0,187.0 " 
+ stroke="none" fill="none" 
+id="CirclePathFromRFIIToRFIS" />
+<animateMotion xlink:href="#CircleForCirclePathFromRFIIToRFIS"
+  dur="5s" repeatCount="indefinite">
+  <mpath xlink:href="#CirclePathFromRFIIToRFIS" />
+</animateMotion>
+
+<text   x="200.0" y="95.0">FixedCapital</text>
+    <g id="MatrixReproductionMachineryCirculatingCapital">
+        <g id="SectorRCSS">
+            <use xlink:href="#box" x="325.0" y="212.5" style="fill:white" />
+          	<text id="SectorRCSSText" style="display:none" x="326.0" y="224.5">Stru</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorRCSSText"/>
+        </g>
+        <g id="SectorRCSM">
+            <use xlink:href="#box" x="350.0" y="212.5" style="fill:lightgoldenrodyellow" />
+          	<text id="SectorRCSMText" style="display:none" x="351.0" y="224.5">Mate</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorRCSMText"/>
+        </g>
+        <g id="SectorRCSE">
+            <use xlink:href="#box" x="375.0" y="212.5" style="fill:pink" />
+          	<text id="SectorRCSEText" style="display:none" x="376.0" y="224.5">Ener</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorRCSEText"/>
+        </g>
+        <g id="SectorRCSI">
+            <use xlink:href="#box" x="400.0" y="212.5" style="fill:lightblue" />
+          	<text id="SectorRCSIText" style="display:none" x="401.0" y="224.5">Info</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorRCSIText"/>
+        </g>
+<text   x="427.0" y="224.5">Structural</text>
+        <g id="SectorRCMS">
+            <use xlink:href="#box" x="325.0" y="237.5" style="fill:lightgoldenrodyellow" />
+          	<text id="SectorRCMSText" style="display:none" x="326.0" y="249.5">Stru</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorRCMSText"/>
+        </g>
+        <g id="SectorRCMM">
+            <use xlink:href="#box" x="350.0" y="237.5" style="fill:yellow" />
+          	<text id="SectorRCMMText" style="display:none" x="351.0" y="249.5">Mate</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorRCMMText"/>
+        </g>
+        <g id="SectorRCME">
+            <use xlink:href="#box" x="375.0" y="237.5" style="fill:#ffd000" />
+          	<text id="SectorRCMEText" style="display:none" x="376.0" y="249.5">Ener</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorRCMEText"/>
+        </g>
+        <g id="SectorRCMI">
+            <use xlink:href="#box" x="400.0" y="237.5" style="fill:lightgreen" />
+          	<text id="SectorRCMIText" style="display:none" x="401.0" y="249.5">Info</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorRCMIText"/>
+        </g>
+<text   x="427.0" y="249.5">Material</text>
+        <g id="SectorRCES">
+            <use xlink:href="#box" x="325.0" y="262.5" style="fill:pink" />
+          	<text id="SectorRCESText" style="display:none" x="326.0" y="274.5">Stru</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorRCESText"/>
+        </g>
+        <g id="SectorRCEM">
+            <use xlink:href="#box" x="350.0" y="262.5" style="fill:#ffd000" />
+          	<text id="SectorRCEMText" style="display:none" x="351.0" y="274.5">Mate</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorRCEMText"/>
+        </g>
+        <g id="SectorRCEE">
+            <use xlink:href="#box" x="375.0" y="262.5" style="fill:red" />
+          	<text id="SectorRCEEText" style="display:none" x="376.0" y="274.5">Ener</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorRCEEText"/>
+        </g>
+        <g id="SectorRCEI">
+            <use xlink:href="#box" x="400.0" y="262.5" style="fill:plum" />
+          	<text id="SectorRCEIText" style="display:none" x="401.0" y="274.5">Info</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorRCEIText"/>
+        </g>
+<text   x="427.0" y="274.5">Energy-Converting</text>
+        <g id="SectorRCIS">
+            <use xlink:href="#box" x="325.0" y="287.5" style="fill:lightblue" />
+          	<text id="SectorRCISText" style="display:none" x="326.0" y="299.5">Stru</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorRCISText"/>
+        </g>
+        <g id="SectorRCIM">
+            <use xlink:href="#box" x="350.0" y="287.5" style="fill:lightgreen" />
+          	<text id="SectorRCIMText" style="display:none" x="351.0" y="299.5">Mate</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorRCIMText"/>
+        </g>
+        <g id="SectorRCIE">
+            <use xlink:href="#box" x="375.0" y="287.5" style="fill:plum" />
+          	<text id="SectorRCIEText" style="display:none" x="376.0" y="299.5">Ener</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorRCIEText"/>
+        </g>
+        <g id="SectorRCII">
+            <use xlink:href="#box" x="400.0" y="287.5" style="fill:blue" />
+          	<text id="SectorRCIIText" style="display:none" x="401.0" y="299.5">Info</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorRCIIText"/>
+        </g>
+<text   x="427.0" y="299.5">Information-Processing</text>
+    </g>
+<text   x="325.0" y="207.5">CirculatingCapital</text>
+<path d=" M 337.0,212.5 L 337.0,88.0 L 218.0,88.0 L 218.0,100.0 " 
+ stroke="grey" fill="none" stroke-dasharray="6,2" 
+id="PathFromRCSSToRFSS" />
+<circle r="5" style="fill:white;stroke:black;" id = "CircleForCirclePathFromRCSSToRFSS"/>
+<path d=" M 337.0,312.5 L 337.0,212.5 L 337.0,88.0 L 218.0,88.0 L 218.0,100.0 L 218.0,200.0 " 
+ stroke="none" fill="none" 
+id="CirclePathFromRCSSToRFSS" />
+<animateMotion xlink:href="#CircleForCirclePathFromRCSSToRFSS"
+  dur="5s" repeatCount="indefinite">
+  <mpath xlink:href="#CirclePathFromRCSSToRFSS" />
+</animateMotion>
+
+<path d=" M 362.0,212.5 L 362.0,75.0 L 243.0,75.0 L 243.0,100.0 " 
+ stroke="yellow" fill="none" stroke-dasharray="6,2" 
+id="PathFromRCSMToRFSM" />
+<circle r="5" style="fill:yellow;stroke:black;" id = "CircleForCirclePathFromRCSMToRFSM"/>
+<path d=" M 362.0,312.5 L 362.0,212.5 L 362.0,75.0 L 243.0,75.0 L 243.0,100.0 L 243.0,200.0 " 
+ stroke="none" fill="none" 
+id="CirclePathFromRCSMToRFSM" />
+<animateMotion xlink:href="#CircleForCirclePathFromRCSMToRFSM"
+  dur="5s" repeatCount="indefinite">
+  <mpath xlink:href="#CirclePathFromRCSMToRFSM" />
+</animateMotion>
+
+<path d=" M 387.0,212.5 L 387.0,63.0 L 268.0,63.0 L 268.0,100.0 " 
+ stroke="red" fill="none" stroke-dasharray="6,2" 
+id="PathFromRCSEToRFSE" />
+<circle r="5" style="fill:red;stroke:black;" id = "CircleForCirclePathFromRCSEToRFSE"/>
+<path d=" M 387.0,312.5 L 387.0,212.5 L 387.0,63.0 L 268.0,63.0 L 268.0,100.0 L 268.0,200.0 " 
+ stroke="none" fill="none" 
+id="CirclePathFromRCSEToRFSE" />
+<animateMotion xlink:href="#CircleForCirclePathFromRCSEToRFSE"
+  dur="5s" repeatCount="indefinite">
+  <mpath xlink:href="#CirclePathFromRCSEToRFSE" />
+</animateMotion>
+
+<path d=" M 412.0,212.5 L 412.0,50.0 L 293.0,50.0 L 293.0,100.0 " 
+ stroke="blue" fill="none" stroke-dasharray="6,2" 
+id="PathFromRCSIToRFSI" />
+<circle r="5" style="fill:blue;stroke:black;" id = "CircleForCirclePathFromRCSIToRFSI"/>
+<path d=" M 412.0,312.5 L 412.0,212.5 L 412.0,50.0 L 293.0,50.0 L 293.0,100.0 L 293.0,200.0 " 
+ stroke="none" fill="none" 
+id="CirclePathFromRCSIToRFSI" />
+<animateMotion xlink:href="#CircleForCirclePathFromRCSIToRFSI"
+  dur="5s" repeatCount="indefinite">
+  <mpath xlink:href="#CirclePathFromRCSIToRFSI" />
+</animateMotion>
+
+<path d=" M 218.0,200.0 L 218.0,224.5 L 325.0,224.5 " 
+ stroke="grey" fill="none" stroke-dasharray="6,2" 
+id="PathFromRFISToRCSS" />
+<circle r="5" style="fill:white;stroke:black;" id = "CircleForCirclePathFromRFISToRCSS"/>
+<path d=" M 218.0,200.0 L 218.0,224.5 L 325.0,224.5 L 425.0,224.5 " 
+ stroke="none" fill="none" 
+id="CirclePathFromRFISToRCSS" />
+<animateMotion xlink:href="#CircleForCirclePathFromRFISToRCSS"
+  dur="5s" repeatCount="indefinite">
+  <mpath xlink:href="#CirclePathFromRFISToRCSS" />
+</animateMotion>
+
+<path d=" M 243.0,200.0 L 243.0,249.5 L 325.0,249.5 " 
+ stroke="yellow" fill="none" stroke-dasharray="6,2" 
+id="PathFromRFIMToRCMS" />
+<circle r="5" style="fill:yellow;stroke:black;" id = "CircleForCirclePathFromRFIMToRCMS"/>
+<path d=" M 243.0,200.0 L 243.0,249.5 L 325.0,249.5 L 425.0,249.5 " 
+ stroke="none" fill="none" 
+id="CirclePathFromRFIMToRCMS" />
+<animateMotion xlink:href="#CircleForCirclePathFromRFIMToRCMS"
+  dur="5s" repeatCount="indefinite">
+  <mpath xlink:href="#CirclePathFromRFIMToRCMS" />
+</animateMotion>
+
+<path d=" M 268.0,200.0 L 268.0,274.5 L 325.0,274.5 " 
+ stroke="red" fill="none" stroke-dasharray="6,2" 
+id="PathFromRFIEToRCES" />
+<circle r="5" style="fill:red;stroke:black;" id = "CircleForCirclePathFromRFIEToRCES"/>
+<path d=" M 268.0,200.0 L 268.0,274.5 L 325.0,274.5 L 425.0,274.5 " 
+ stroke="none" fill="none" 
+id="CirclePathFromRFIEToRCES" />
+<animateMotion xlink:href="#CircleForCirclePathFromRFIEToRCES"
+  dur="5s" repeatCount="indefinite">
+  <mpath xlink:href="#CirclePathFromRFIEToRCES" />
+</animateMotion>
+
+<path d=" M 293.0,200.0 L 293.0,299.5 L 325.0,299.5 " 
+ stroke="blue" fill="none" stroke-dasharray="6,2" 
+id="PathFromRFIIToRCIS" />
+<circle r="5" style="fill:blue;stroke:black;" id = "CircleForCirclePathFromRFIIToRCIS"/>
+<path d=" M 293.0,200.0 L 293.0,299.5 L 325.0,299.5 L 425.0,299.5 " 
+ stroke="none" fill="none" 
+id="CirclePathFromRFIIToRCIS" />
+<animateMotion xlink:href="#CircleForCirclePathFromRFIIToRCIS"
+  dur="5s" repeatCount="indefinite">
+  <mpath xlink:href="#CirclePathFromRFIIToRCIS" />
+</animateMotion>
+
+<rect id="ProductionMachinerybox" x="200.0" y="345.0" width="525.0" height="275.0" style="fill:white;stroke:grey;stroke-dasharray:3,3"/>
+<text   x="550.0" y="365.0">Production Machinery Stage</text>
+    <g id="MatrixProductionMachineryFixedCapital">
+        <g id="SectorPFSS">
+            <use xlink:href="#box" x="325.0" y="400.0" style="fill:white" />
+          	<text id="SectorPFSSText" style="display:none" x="326.0" y="412.0">Stru</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorPFSSText"/>
+        </g>
+        <g id="SectorPFSM">
+            <use xlink:href="#box" x="350.0" y="400.0" style="fill:lightgoldenrodyellow" />
+          	<text id="SectorPFSMText" style="display:none" x="351.0" y="412.0">Mate</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorPFSMText"/>
+        </g>
+        <g id="SectorPFSE">
+            <use xlink:href="#box" x="375.0" y="400.0" style="fill:pink" />
+          	<text id="SectorPFSEText" style="display:none" x="376.0" y="412.0">Ener</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorPFSEText"/>
+        </g>
+        <g id="SectorPFSI">
+            <use xlink:href="#box" x="400.0" y="400.0" style="fill:lightblue" />
+          	<text id="SectorPFSIText" style="display:none" x="401.0" y="412.0">Info</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorPFSIText"/>
+        </g>
+<text   x="427.0" y="412.0">Structural</text>
+        <g id="SectorPFMS">
+            <use xlink:href="#box" x="325.0" y="425.0" style="fill:lightgoldenrodyellow" />
+          	<text id="SectorPFMSText" style="display:none" x="326.0" y="437.0">Stru</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorPFMSText"/>
+        </g>
+        <g id="SectorPFMM">
+            <use xlink:href="#box" x="350.0" y="425.0" style="fill:yellow" />
+          	<text id="SectorPFMMText" style="display:none" x="351.0" y="437.0">Mate</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorPFMMText"/>
+        </g>
+        <g id="SectorPFME">
+            <use xlink:href="#box" x="375.0" y="425.0" style="fill:#ffd000" />
+          	<text id="SectorPFMEText" style="display:none" x="376.0" y="437.0">Ener</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorPFMEText"/>
+        </g>
+        <g id="SectorPFMI">
+            <use xlink:href="#box" x="400.0" y="425.0" style="fill:lightgreen" />
+          	<text id="SectorPFMIText" style="display:none" x="401.0" y="437.0">Info</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorPFMIText"/>
+        </g>
+<text   x="427.0" y="437.0">Material</text>
+        <g id="SectorPFES">
+            <use xlink:href="#box" x="325.0" y="450.0" style="fill:pink" />
+          	<text id="SectorPFESText" style="display:none" x="326.0" y="462.0">Stru</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorPFESText"/>
+        </g>
+        <g id="SectorPFEM">
+            <use xlink:href="#box" x="350.0" y="450.0" style="fill:#ffd000" />
+          	<text id="SectorPFEMText" style="display:none" x="351.0" y="462.0">Mate</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorPFEMText"/>
+        </g>
+        <g id="SectorPFEE">
+            <use xlink:href="#box" x="375.0" y="450.0" style="fill:red" />
+          	<text id="SectorPFEEText" style="display:none" x="376.0" y="462.0">Ener</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorPFEEText"/>
+        </g>
+        <g id="SectorPFEI">
+            <use xlink:href="#box" x="400.0" y="450.0" style="fill:plum" />
+          	<text id="SectorPFEIText" style="display:none" x="401.0" y="462.0">Info</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorPFEIText"/>
+        </g>
+<text   x="427.0" y="462.0">Energy-Converting</text>
+        <g id="SectorPFIS">
+            <use xlink:href="#box" x="325.0" y="475.0" style="fill:lightblue" />
+          	<text id="SectorPFISText" style="display:none" x="326.0" y="487.0">Stru</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorPFISText"/>
+        </g>
+        <g id="SectorPFIM">
+            <use xlink:href="#box" x="350.0" y="475.0" style="fill:lightgreen" />
+          	<text id="SectorPFIMText" style="display:none" x="351.0" y="487.0">Mate</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorPFIMText"/>
+        </g>
+        <g id="SectorPFIE">
+            <use xlink:href="#box" x="375.0" y="475.0" style="fill:plum" />
+          	<text id="SectorPFIEText" style="display:none" x="376.0" y="487.0">Ener</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorPFIEText"/>
+        </g>
+        <g id="SectorPFII">
+            <use xlink:href="#box" x="400.0" y="475.0" style="fill:blue" />
+          	<text id="SectorPFIIText" style="display:none" x="401.0" y="487.0">Info</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorPFIIText"/>
+        </g>
+<text   x="427.0" y="487.0">Information-Processing</text>
+    </g>
+<text   x="325.0" y="395.0">FixedCapital</text>
+    <g id="MatrixProductionMachineryCirculatingCapital">
+        <g id="SectorPCSS">
+            <use xlink:href="#box" x="450.0" y="512.5" style="fill:white" />
+          	<text id="SectorPCSSText" style="display:none" x="451.0" y="524.5">Stru</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorPCSSText"/>
+        </g>
+        <g id="SectorPCSM">
+            <use xlink:href="#box" x="475.0" y="512.5" style="fill:lightgoldenrodyellow" />
+          	<text id="SectorPCSMText" style="display:none" x="476.0" y="524.5">Mate</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorPCSMText"/>
+        </g>
+        <g id="SectorPCSE">
+            <use xlink:href="#box" x="500.0" y="512.5" style="fill:pink" />
+          	<text id="SectorPCSEText" style="display:none" x="501.0" y="524.5">Ener</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorPCSEText"/>
+        </g>
+        <g id="SectorPCSI">
+            <use xlink:href="#box" x="525.0" y="512.5" style="fill:lightblue" />
+          	<text id="SectorPCSIText" style="display:none" x="526.0" y="524.5">Info</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorPCSIText"/>
+        </g>
+<text   x="552.0" y="524.5">Structural</text>
+        <g id="SectorPCMS">
+            <use xlink:href="#box" x="450.0" y="537.5" style="fill:lightgoldenrodyellow" />
+          	<text id="SectorPCMSText" style="display:none" x="451.0" y="549.5">Stru</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorPCMSText"/>
+        </g>
+        <g id="SectorPCMM">
+            <use xlink:href="#box" x="475.0" y="537.5" style="fill:yellow" />
+          	<text id="SectorPCMMText" style="display:none" x="476.0" y="549.5">Mate</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorPCMMText"/>
+        </g>
+        <g id="SectorPCME">
+            <use xlink:href="#box" x="500.0" y="537.5" style="fill:#ffd000" />
+          	<text id="SectorPCMEText" style="display:none" x="501.0" y="549.5">Ener</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorPCMEText"/>
+        </g>
+        <g id="SectorPCMI">
+            <use xlink:href="#box" x="525.0" y="537.5" style="fill:lightgreen" />
+          	<text id="SectorPCMIText" style="display:none" x="526.0" y="549.5">Info</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorPCMIText"/>
+        </g>
+<text   x="552.0" y="549.5">Material</text>
+        <g id="SectorPCES">
+            <use xlink:href="#box" x="450.0" y="562.5" style="fill:pink" />
+          	<text id="SectorPCESText" style="display:none" x="451.0" y="574.5">Stru</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorPCESText"/>
+        </g>
+        <g id="SectorPCEM">
+            <use xlink:href="#box" x="475.0" y="562.5" style="fill:#ffd000" />
+          	<text id="SectorPCEMText" style="display:none" x="476.0" y="574.5">Mate</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorPCEMText"/>
+        </g>
+        <g id="SectorPCEE">
+            <use xlink:href="#box" x="500.0" y="562.5" style="fill:red" />
+          	<text id="SectorPCEEText" style="display:none" x="501.0" y="574.5">Ener</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorPCEEText"/>
+        </g>
+        <g id="SectorPCEI">
+            <use xlink:href="#box" x="525.0" y="562.5" style="fill:plum" />
+          	<text id="SectorPCEIText" style="display:none" x="526.0" y="574.5">Info</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorPCEIText"/>
+        </g>
+<text   x="552.0" y="574.5">Energy-Converting</text>
+        <g id="SectorPCIS">
+            <use xlink:href="#box" x="450.0" y="587.5" style="fill:lightblue" />
+          	<text id="SectorPCISText" style="display:none" x="451.0" y="599.5">Stru</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorPCISText"/>
+        </g>
+        <g id="SectorPCIM">
+            <use xlink:href="#box" x="475.0" y="587.5" style="fill:lightgreen" />
+          	<text id="SectorPCIMText" style="display:none" x="476.0" y="599.5">Mate</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorPCIMText"/>
+        </g>
+        <g id="SectorPCIE">
+            <use xlink:href="#box" x="500.0" y="587.5" style="fill:plum" />
+          	<text id="SectorPCIEText" style="display:none" x="501.0" y="599.5">Ener</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorPCIEText"/>
+        </g>
+        <g id="SectorPCII">
+            <use xlink:href="#box" x="525.0" y="587.5" style="fill:blue" />
+          	<text id="SectorPCIIText" style="display:none" x="526.0" y="599.5">Info</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorPCIIText"/>
+        </g>
+<text   x="552.0" y="599.5">Information-Processing</text>
+    </g>
+<text   x="450.0" y="507.5">CirculatingCapital</text>
+<path d=" M 462.0,512.5 L 462.0,388.0 L 343.0,388.0 L 343.0,400.0 " 
+ stroke="grey" fill="none" stroke-dasharray="6,2" 
+id="PathFromPCSSToPFSS" />
+<circle r="5" style="fill:white;stroke:black;" id = "CircleForCirclePathFromPCSSToPFSS"/>
+<path d=" M 462.0,612.5 L 462.0,512.5 L 462.0,388.0 L 343.0,388.0 L 343.0,400.0 L 343.0,500.0 " 
+ stroke="none" fill="none" 
+id="CirclePathFromPCSSToPFSS" />
+<animateMotion xlink:href="#CircleForCirclePathFromPCSSToPFSS"
+  dur="5s" repeatCount="indefinite">
+  <mpath xlink:href="#CirclePathFromPCSSToPFSS" />
+</animateMotion>
+
+<path d=" M 487.0,512.5 L 487.0,375.0 L 368.0,375.0 L 368.0,400.0 " 
+ stroke="yellow" fill="none" stroke-dasharray="6,2" 
+id="PathFromPCSMToPFSM" />
+<circle r="5" style="fill:yellow;stroke:black;" id = "CircleForCirclePathFromPCSMToPFSM"/>
+<path d=" M 487.0,612.5 L 487.0,512.5 L 487.0,375.0 L 368.0,375.0 L 368.0,400.0 L 368.0,500.0 " 
+ stroke="none" fill="none" 
+id="CirclePathFromPCSMToPFSM" />
+<animateMotion xlink:href="#CircleForCirclePathFromPCSMToPFSM"
+  dur="5s" repeatCount="indefinite">
+  <mpath xlink:href="#CirclePathFromPCSMToPFSM" />
+</animateMotion>
+
+<path d=" M 512.0,512.5 L 512.0,363.0 L 393.0,363.0 L 393.0,400.0 " 
+ stroke="red" fill="none" stroke-dasharray="6,2" 
+id="PathFromPCSEToPFSE" />
+<circle r="5" style="fill:red;stroke:black;" id = "CircleForCirclePathFromPCSEToPFSE"/>
+<path d=" M 512.0,612.5 L 512.0,512.5 L 512.0,363.0 L 393.0,363.0 L 393.0,400.0 L 393.0,500.0 " 
+ stroke="none" fill="none" 
+id="CirclePathFromPCSEToPFSE" />
+<animateMotion xlink:href="#CircleForCirclePathFromPCSEToPFSE"
+  dur="5s" repeatCount="indefinite">
+  <mpath xlink:href="#CirclePathFromPCSEToPFSE" />
+</animateMotion>
+
+<path d=" M 537.0,512.5 L 537.0,350.0 L 418.0,350.0 L 418.0,400.0 " 
+ stroke="blue" fill="none" stroke-dasharray="6,2" 
+id="PathFromPCSIToPFSI" />
+<circle r="5" style="fill:blue;stroke:black;" id = "CircleForCirclePathFromPCSIToPFSI"/>
+<path d=" M 537.0,612.5 L 537.0,512.5 L 537.0,350.0 L 418.0,350.0 L 418.0,400.0 L 418.0,500.0 " 
+ stroke="none" fill="none" 
+id="CirclePathFromPCSIToPFSI" />
+<animateMotion xlink:href="#CircleForCirclePathFromPCSIToPFSI"
+  dur="5s" repeatCount="indefinite">
+  <mpath xlink:href="#CirclePathFromPCSIToPFSI" />
+</animateMotion>
+
+<path d=" M 343.0,500.0 L 343.0,524.5 L 450.0,524.5 " 
+ stroke="grey" fill="none" stroke-dasharray="6,2" 
+id="PathFromPFISToPCSS" />
+<circle r="5" style="fill:white;stroke:black;" id = "CircleForCirclePathFromPFISToPCSS"/>
+<path d=" M 343.0,500.0 L 343.0,524.5 L 450.0,524.5 L 550.0,524.5 " 
+ stroke="none" fill="none" 
+id="CirclePathFromPFISToPCSS" />
+<animateMotion xlink:href="#CircleForCirclePathFromPFISToPCSS"
+  dur="5s" repeatCount="indefinite">
+  <mpath xlink:href="#CirclePathFromPFISToPCSS" />
+</animateMotion>
+
+<path d=" M 368.0,500.0 L 368.0,549.5 L 450.0,549.5 " 
+ stroke="yellow" fill="none" stroke-dasharray="6,2" 
+id="PathFromPFIMToPCMS" />
+<circle r="5" style="fill:yellow;stroke:black;" id = "CircleForCirclePathFromPFIMToPCMS"/>
+<path d=" M 368.0,500.0 L 368.0,549.5 L 450.0,549.5 L 550.0,549.5 " 
+ stroke="none" fill="none" 
+id="CirclePathFromPFIMToPCMS" />
+<animateMotion xlink:href="#CircleForCirclePathFromPFIMToPCMS"
+  dur="5s" repeatCount="indefinite">
+  <mpath xlink:href="#CirclePathFromPFIMToPCMS" />
+</animateMotion>
+
+<path d=" M 393.0,500.0 L 393.0,574.5 L 450.0,574.5 " 
+ stroke="red" fill="none" stroke-dasharray="6,2" 
+id="PathFromPFIEToPCES" />
+<circle r="5" style="fill:red;stroke:black;" id = "CircleForCirclePathFromPFIEToPCES"/>
+<path d=" M 393.0,500.0 L 393.0,574.5 L 450.0,574.5 L 550.0,574.5 " 
+ stroke="none" fill="none" 
+id="CirclePathFromPFIEToPCES" />
+<animateMotion xlink:href="#CircleForCirclePathFromPFIEToPCES"
+  dur="5s" repeatCount="indefinite">
+  <mpath xlink:href="#CirclePathFromPFIEToPCES" />
+</animateMotion>
+
+<path d=" M 418.0,500.0 L 418.0,599.5 L 450.0,599.5 " 
+ stroke="blue" fill="none" stroke-dasharray="6,2" 
+id="PathFromPFIIToPCIS" />
+<circle r="5" style="fill:blue;stroke:black;" id = "CircleForCirclePathFromPFIIToPCIS"/>
+<path d=" M 418.0,500.0 L 418.0,599.5 L 450.0,599.5 L 550.0,599.5 " 
+ stroke="none" fill="none" 
+id="CirclePathFromPFIIToPCIS" />
+<animateMotion xlink:href="#CircleForCirclePathFromPFIIToPCIS"
+  dur="5s" repeatCount="indefinite">
+  <mpath xlink:href="#CirclePathFromPFIIToPCIS" />
+</animateMotion>
+
+<rect id="FinalProductionbox" x="325.0" y="645.0" width="525.0" height="275.0" style="fill:white;stroke:grey;stroke-dasharray:3,3"/>
+<text   x="675.0" y="665.0">Final Production Stage</text>
+    <g id="MatrixFinalProductionFixedCapital">
+        <g id="SectorFFSS">
+            <use xlink:href="#box" x="450.0" y="700.0" style="fill:white" />
+          	<text id="SectorFFSSText" style="display:none" x="451.0" y="712.0">Stru</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorFFSSText"/>
+        </g>
+        <g id="SectorFFSM">
+            <use xlink:href="#box" x="475.0" y="700.0" style="fill:lightgoldenrodyellow" />
+          	<text id="SectorFFSMText" style="display:none" x="476.0" y="712.0">Mate</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorFFSMText"/>
+        </g>
+        <g id="SectorFFSE">
+            <use xlink:href="#box" x="500.0" y="700.0" style="fill:pink" />
+          	<text id="SectorFFSEText" style="display:none" x="501.0" y="712.0">Ener</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorFFSEText"/>
+        </g>
+        <g id="SectorFFSI">
+            <use xlink:href="#box" x="525.0" y="700.0" style="fill:lightblue" />
+          	<text id="SectorFFSIText" style="display:none" x="526.0" y="712.0">Info</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorFFSIText"/>
+        </g>
+<text   x="552.0" y="712.0">Structural</text>
+        <g id="SectorFFMS">
+            <use xlink:href="#box" x="450.0" y="725.0" style="fill:lightgoldenrodyellow" />
+          	<text id="SectorFFMSText" style="display:none" x="451.0" y="737.0">Stru</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorFFMSText"/>
+        </g>
+        <g id="SectorFFMM">
+            <use xlink:href="#box" x="475.0" y="725.0" style="fill:yellow" />
+          	<text id="SectorFFMMText" style="display:none" x="476.0" y="737.0">Mate</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorFFMMText"/>
+        </g>
+        <g id="SectorFFME">
+            <use xlink:href="#box" x="500.0" y="725.0" style="fill:#ffd000" />
+          	<text id="SectorFFMEText" style="display:none" x="501.0" y="737.0">Ener</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorFFMEText"/>
+        </g>
+        <g id="SectorFFMI">
+            <use xlink:href="#box" x="525.0" y="725.0" style="fill:lightgreen" />
+          	<text id="SectorFFMIText" style="display:none" x="526.0" y="737.0">Info</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorFFMIText"/>
+        </g>
+<text   x="552.0" y="737.0">Material</text>
+        <g id="SectorFFES">
+            <use xlink:href="#box" x="450.0" y="750.0" style="fill:pink" />
+          	<text id="SectorFFESText" style="display:none" x="451.0" y="762.0">Stru</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorFFESText"/>
+        </g>
+        <g id="SectorFFEM">
+            <use xlink:href="#box" x="475.0" y="750.0" style="fill:#ffd000" />
+          	<text id="SectorFFEMText" style="display:none" x="476.0" y="762.0">Mate</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorFFEMText"/>
+        </g>
+        <g id="SectorFFEE">
+            <use xlink:href="#box" x="500.0" y="750.0" style="fill:red" />
+          	<text id="SectorFFEEText" style="display:none" x="501.0" y="762.0">Ener</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorFFEEText"/>
+        </g>
+        <g id="SectorFFEI">
+            <use xlink:href="#box" x="525.0" y="750.0" style="fill:plum" />
+          	<text id="SectorFFEIText" style="display:none" x="526.0" y="762.0">Info</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorFFEIText"/>
+        </g>
+<text   x="552.0" y="762.0">Energy-Converting</text>
+        <g id="SectorFFIS">
+            <use xlink:href="#box" x="450.0" y="775.0" style="fill:lightblue" />
+          	<text id="SectorFFISText" style="display:none" x="451.0" y="787.0">Stru</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorFFISText"/>
+        </g>
+        <g id="SectorFFIM">
+            <use xlink:href="#box" x="475.0" y="775.0" style="fill:lightgreen" />
+          	<text id="SectorFFIMText" style="display:none" x="476.0" y="787.0">Mate</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorFFIMText"/>
+        </g>
+        <g id="SectorFFIE">
+            <use xlink:href="#box" x="500.0" y="775.0" style="fill:plum" />
+          	<text id="SectorFFIEText" style="display:none" x="501.0" y="787.0">Ener</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorFFIEText"/>
+        </g>
+        <g id="SectorFFII">
+            <use xlink:href="#box" x="525.0" y="775.0" style="fill:blue" />
+          	<text id="SectorFFIIText" style="display:none" x="526.0" y="787.0">Info</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorFFIIText"/>
+        </g>
+<text   x="552.0" y="787.0">Information-Processing</text>
+    </g>
+<text   x="450.0" y="695.0">FixedCapital</text>
+    <g id="MatrixFinalProductionCirculatingCapital">
+        <g id="SectorFCSS">
+            <use xlink:href="#box" x="575.0" y="812.5" style="fill:white" />
+          	<text id="SectorFCSSText" style="display:none" x="576.0" y="824.5">Stru</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorFCSSText"/>
+        </g>
+        <g id="SectorFCSM">
+            <use xlink:href="#box" x="600.0" y="812.5" style="fill:lightgoldenrodyellow" />
+          	<text id="SectorFCSMText" style="display:none" x="601.0" y="824.5">Mate</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorFCSMText"/>
+        </g>
+        <g id="SectorFCSE">
+            <use xlink:href="#box" x="625.0" y="812.5" style="fill:pink" />
+          	<text id="SectorFCSEText" style="display:none" x="626.0" y="824.5">Ener</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorFCSEText"/>
+        </g>
+        <g id="SectorFCSI">
+            <use xlink:href="#box" x="650.0" y="812.5" style="fill:lightblue" />
+          	<text id="SectorFCSIText" style="display:none" x="651.0" y="824.5">Info</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorFCSIText"/>
+        </g>
+<text   x="677.0" y="824.5">Structural</text>
+        <g id="SectorFCMS">
+            <use xlink:href="#box" x="575.0" y="837.5" style="fill:lightgoldenrodyellow" />
+          	<text id="SectorFCMSText" style="display:none" x="576.0" y="849.5">Stru</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorFCMSText"/>
+        </g>
+        <g id="SectorFCMM">
+            <use xlink:href="#box" x="600.0" y="837.5" style="fill:yellow" />
+          	<text id="SectorFCMMText" style="display:none" x="601.0" y="849.5">Mate</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorFCMMText"/>
+        </g>
+        <g id="SectorFCME">
+            <use xlink:href="#box" x="625.0" y="837.5" style="fill:#ffd000" />
+          	<text id="SectorFCMEText" style="display:none" x="626.0" y="849.5">Ener</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorFCMEText"/>
+        </g>
+        <g id="SectorFCMI">
+            <use xlink:href="#box" x="650.0" y="837.5" style="fill:lightgreen" />
+          	<text id="SectorFCMIText" style="display:none" x="651.0" y="849.5">Info</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorFCMIText"/>
+        </g>
+<text   x="677.0" y="849.5">Material</text>
+        <g id="SectorFCES">
+            <use xlink:href="#box" x="575.0" y="862.5" style="fill:pink" />
+          	<text id="SectorFCESText" style="display:none" x="576.0" y="874.5">Stru</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorFCESText"/>
+        </g>
+        <g id="SectorFCEM">
+            <use xlink:href="#box" x="600.0" y="862.5" style="fill:#ffd000" />
+          	<text id="SectorFCEMText" style="display:none" x="601.0" y="874.5">Mate</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorFCEMText"/>
+        </g>
+        <g id="SectorFCEE">
+            <use xlink:href="#box" x="625.0" y="862.5" style="fill:red" />
+          	<text id="SectorFCEEText" style="display:none" x="626.0" y="874.5">Ener</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorFCEEText"/>
+        </g>
+        <g id="SectorFCEI">
+            <use xlink:href="#box" x="650.0" y="862.5" style="fill:plum" />
+          	<text id="SectorFCEIText" style="display:none" x="651.0" y="874.5">Info</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorFCEIText"/>
+        </g>
+<text   x="677.0" y="874.5">Energy-Converting</text>
+        <g id="SectorFCIS">
+            <use xlink:href="#box" x="575.0" y="887.5" style="fill:lightblue" />
+          	<text id="SectorFCISText" style="display:none" x="576.0" y="899.5">Stru</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorFCISText"/>
+        </g>
+        <g id="SectorFCIM">
+            <use xlink:href="#box" x="600.0" y="887.5" style="fill:lightgreen" />
+          	<text id="SectorFCIMText" style="display:none" x="601.0" y="899.5">Mate</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorFCIMText"/>
+        </g>
+        <g id="SectorFCIE">
+            <use xlink:href="#box" x="625.0" y="887.5" style="fill:plum" />
+          	<text id="SectorFCIEText" style="display:none" x="626.0" y="899.5">Ener</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorFCIEText"/>
+        </g>
+        <g id="SectorFCII">
+            <use xlink:href="#box" x="650.0" y="887.5" style="fill:blue" />
+          	<text id="SectorFCIIText" style="display:none" x="651.0" y="899.5">Info</text>
+          	<set attributeName="display" to="inline" begin="mouseover" end="mouseout" xlink:href="#SectorFCIIText"/>
+        </g>
+<text   x="677.0" y="899.5">Information-Processing</text>
+    </g>
+<text   x="575.0" y="807.5">CirculatingCapital</text>
+<path d=" M 587.0,812.5 L 587.0,688.0 L 468.0,688.0 L 468.0,700.0 " 
+ stroke="grey" fill="none" stroke-dasharray="6,2" 
+id="PathFromFCSSToFFSS" />
+<circle r="5" style="fill:white;stroke:black;" id = "CircleForCirclePathFromFCSSToFFSS"/>
+<path d=" M 587.0,912.5 L 587.0,812.5 L 587.0,688.0 L 468.0,688.0 L 468.0,700.0 L 468.0,800.0 " 
+ stroke="none" fill="none" 
+id="CirclePathFromFCSSToFFSS" />
+<animateMotion xlink:href="#CircleForCirclePathFromFCSSToFFSS"
+  dur="5s" repeatCount="indefinite">
+  <mpath xlink:href="#CirclePathFromFCSSToFFSS" />
+</animateMotion>
+
+<path d=" M 612.0,812.5 L 612.0,675.0 L 493.0,675.0 L 493.0,700.0 " 
+ stroke="yellow" fill="none" stroke-dasharray="6,2" 
+id="PathFromFCSMToFFSM" />
+<circle r="5" style="fill:yellow;stroke:black;" id = "CircleForCirclePathFromFCSMToFFSM"/>
+<path d=" M 612.0,912.5 L 612.0,812.5 L 612.0,675.0 L 493.0,675.0 L 493.0,700.0 L 493.0,800.0 " 
+ stroke="none" fill="none" 
+id="CirclePathFromFCSMToFFSM" />
+<animateMotion xlink:href="#CircleForCirclePathFromFCSMToFFSM"
+  dur="5s" repeatCount="indefinite">
+  <mpath xlink:href="#CirclePathFromFCSMToFFSM" />
+</animateMotion>
+
+<path d=" M 637.0,812.5 L 637.0,663.0 L 518.0,663.0 L 518.0,700.0 " 
+ stroke="red" fill="none" stroke-dasharray="6,2" 
+id="PathFromFCSEToFFSE" />
+<circle r="5" style="fill:red;stroke:black;" id = "CircleForCirclePathFromFCSEToFFSE"/>
+<path d=" M 637.0,912.5 L 637.0,812.5 L 637.0,663.0 L 518.0,663.0 L 518.0,700.0 L 518.0,800.0 " 
+ stroke="none" fill="none" 
+id="CirclePathFromFCSEToFFSE" />
+<animateMotion xlink:href="#CircleForCirclePathFromFCSEToFFSE"
+  dur="5s" repeatCount="indefinite">
+  <mpath xlink:href="#CirclePathFromFCSEToFFSE" />
+</animateMotion>
+
+<path d=" M 662.0,812.5 L 662.0,650.0 L 543.0,650.0 L 543.0,700.0 " 
+ stroke="blue" fill="none" stroke-dasharray="6,2" 
+id="PathFromFCSIToFFSI" />
+<circle r="5" style="fill:blue;stroke:black;" id = "CircleForCirclePathFromFCSIToFFSI"/>
+<path d=" M 662.0,912.5 L 662.0,812.5 L 662.0,650.0 L 543.0,650.0 L 543.0,700.0 L 543.0,800.0 " 
+ stroke="none" fill="none" 
+id="CirclePathFromFCSIToFFSI" />
+<animateMotion xlink:href="#CircleForCirclePathFromFCSIToFFSI"
+  dur="5s" repeatCount="indefinite">
+  <mpath xlink:href="#CirclePathFromFCSIToFFSI" />
+</animateMotion>
+
+<path d=" M 468.0,800.0 L 468.0,824.5 L 575.0,824.5 " 
+ stroke="grey" fill="none" stroke-dasharray="6,2" 
+id="PathFromFFISToFCSS" />
+<circle r="5" style="fill:white;stroke:black;" id = "CircleForCirclePathFromFFISToFCSS"/>
+<path d=" M 468.0,800.0 L 468.0,824.5 L 575.0,824.5 L 675.0,824.5 " 
+ stroke="none" fill="none" 
+id="CirclePathFromFFISToFCSS" />
+<animateMotion xlink:href="#CircleForCirclePathFromFFISToFCSS"
+  dur="5s" repeatCount="indefinite">
+  <mpath xlink:href="#CirclePathFromFFISToFCSS" />
+</animateMotion>
+
+<path d=" M 493.0,800.0 L 493.0,849.5 L 575.0,849.5 " 
+ stroke="yellow" fill="none" stroke-dasharray="6,2" 
+id="PathFromFFIMToFCMS" />
+<circle r="5" style="fill:yellow;stroke:black;" id = "CircleForCirclePathFromFFIMToFCMS"/>
+<path d=" M 493.0,800.0 L 493.0,849.5 L 575.0,849.5 L 675.0,849.5 " 
+ stroke="none" fill="none" 
+id="CirclePathFromFFIMToFCMS" />
+<animateMotion xlink:href="#CircleForCirclePathFromFFIMToFCMS"
+  dur="5s" repeatCount="indefinite">
+  <mpath xlink:href="#CirclePathFromFFIMToFCMS" />
+</animateMotion>
+
+<path d=" M 518.0,800.0 L 518.0,874.5 L 575.0,874.5 " 
+ stroke="red" fill="none" stroke-dasharray="6,2" 
+id="PathFromFFIEToFCES" />
+<circle r="5" style="fill:red;stroke:black;" id = "CircleForCirclePathFromFFIEToFCES"/>
+<path d=" M 518.0,800.0 L 518.0,874.5 L 575.0,874.5 L 675.0,874.5 " 
+ stroke="none" fill="none" 
+id="CirclePathFromFFIEToFCES" />
+<animateMotion xlink:href="#CircleForCirclePathFromFFIEToFCES"
+  dur="5s" repeatCount="indefinite">
+  <mpath xlink:href="#CirclePathFromFFIEToFCES" />
+</animateMotion>
+
+<path d=" M 543.0,800.0 L 543.0,899.5 L 575.0,899.5 " 
+ stroke="blue" fill="none" stroke-dasharray="6,2" 
+id="PathFromFFIIToFCIS" />
+<circle r="5" style="fill:blue;stroke:black;" id = "CircleForCirclePathFromFFIIToFCIS"/>
+<path d=" M 543.0,800.0 L 543.0,899.5 L 575.0,899.5 L 675.0,899.5 " 
+ stroke="none" fill="none" 
+id="CirclePathFromFFIIToFCIS" />
+<animateMotion xlink:href="#CircleForCirclePathFromFFIIToFCIS"
+  dur="5s" repeatCount="indefinite">
+  <mpath xlink:href="#CirclePathFromFFIIToFCIS" />
+</animateMotion>
+
+<path d=" M 212.0,200.0 L 212.0,412.0 L 325.0,412.0 " 
+ stroke="grey" fill="none" 
+id="PathFromRFISToPFSS" />
+<circle r="5" style="fill:white;stroke:black;" id = "CircleForCirclePathFromRFISToPFSS"/>
+<path d=" M 212.0,200.0 L 212.0,412.0 L 325.0,412.0 L 425.0,412.0 " 
+ stroke="none" fill="none" 
+id="CirclePathFromRFISToPFSS" />
+<animateMotion xlink:href="#CircleForCirclePathFromRFISToPFSS"
+  dur="5s" repeatCount="indefinite">
+  <mpath xlink:href="#CirclePathFromRFISToPFSS" />
+</animateMotion>
+
+<path d=" M 237.0,200.0 L 237.0,437.0 L 325.0,437.0 " 
+ stroke="yellow" fill="none" 
+id="PathFromRFIMToPFMS" />
+<circle r="5" style="fill:yellow;stroke:black;" id = "CircleForCirclePathFromRFIMToPFMS"/>
+<path d=" M 237.0,200.0 L 237.0,437.0 L 325.0,437.0 L 425.0,437.0 " 
+ stroke="none" fill="none" 
+id="CirclePathFromRFIMToPFMS" />
+<animateMotion xlink:href="#CircleForCirclePathFromRFIMToPFMS"
+  dur="5s" repeatCount="indefinite">
+  <mpath xlink:href="#CirclePathFromRFIMToPFMS" />
+</animateMotion>
+
+<path d=" M 262.0,200.0 L 262.0,462.0 L 325.0,462.0 " 
+ stroke="red" fill="none" 
+id="PathFromRFIEToPFES" />
+<circle r="5" style="fill:red;stroke:black;" id = "CircleForCirclePathFromRFIEToPFES"/>
+<path d=" M 262.0,200.0 L 262.0,462.0 L 325.0,462.0 L 425.0,462.0 " 
+ stroke="none" fill="none" 
+id="CirclePathFromRFIEToPFES" />
+<animateMotion xlink:href="#CircleForCirclePathFromRFIEToPFES"
+  dur="5s" repeatCount="indefinite">
+  <mpath xlink:href="#CirclePathFromRFIEToPFES" />
+</animateMotion>
+
+<path d=" M 287.0,200.0 L 287.0,487.0 L 325.0,487.0 " 
+ stroke="blue" fill="none" 
+id="PathFromRFIIToPFIS" />
+<circle r="5" style="fill:blue;stroke:black;" id = "CircleForCirclePathFromRFIIToPFIS"/>
+<path d=" M 287.0,200.0 L 287.0,487.0 L 325.0,487.0 L 425.0,487.0 " 
+ stroke="none" fill="none" 
+id="CirclePathFromRFIIToPFIS" />
+<animateMotion xlink:href="#CircleForCirclePathFromRFIIToPFIS"
+  dur="5s" repeatCount="indefinite">
+  <mpath xlink:href="#CirclePathFromRFIIToPFIS" />
+</animateMotion>
+
+<path d=" M 337.0,500.0 L 337.0,712.0 L 450.0,712.0 " 
+ stroke="grey" fill="none" 
+id="PathFromPFISToFFSS" />
+<circle r="5" style="fill:white;stroke:black;" id = "CircleForCirclePathFromPFISToFFSS"/>
+<path d=" M 337.0,500.0 L 337.0,712.0 L 450.0,712.0 L 550.0,712.0 " 
+ stroke="none" fill="none" 
+id="CirclePathFromPFISToFFSS" />
+<animateMotion xlink:href="#CircleForCirclePathFromPFISToFFSS"
+  dur="5s" repeatCount="indefinite">
+  <mpath xlink:href="#CirclePathFromPFISToFFSS" />
+</animateMotion>
+
+<path d=" M 362.0,500.0 L 362.0,737.0 L 450.0,737.0 " 
+ stroke="yellow" fill="none" 
+id="PathFromPFIMToFFMS" />
+<circle r="5" style="fill:yellow;stroke:black;" id = "CircleForCirclePathFromPFIMToFFMS"/>
+<path d=" M 362.0,500.0 L 362.0,737.0 L 450.0,737.0 L 550.0,737.0 " 
+ stroke="none" fill="none" 
+id="CirclePathFromPFIMToFFMS" />
+<animateMotion xlink:href="#CircleForCirclePathFromPFIMToFFMS"
+  dur="5s" repeatCount="indefinite">
+  <mpath xlink:href="#CirclePathFromPFIMToFFMS" />
+</animateMotion>
+
+<path d=" M 387.0,500.0 L 387.0,762.0 L 450.0,762.0 " 
+ stroke="red" fill="none" 
+id="PathFromPFIEToFFES" />
+<circle r="5" style="fill:red;stroke:black;" id = "CircleForCirclePathFromPFIEToFFES"/>
+<path d=" M 387.0,500.0 L 387.0,762.0 L 450.0,762.0 L 550.0,762.0 " 
+ stroke="none" fill="none" 
+id="CirclePathFromPFIEToFFES" />
+<animateMotion xlink:href="#CircleForCirclePathFromPFIEToFFES"
+  dur="5s" repeatCount="indefinite">
+  <mpath xlink:href="#CirclePathFromPFIEToFFES" />
+</animateMotion>
+
+<path d=" M 412.0,500.0 L 412.0,787.0 L 450.0,787.0 " 
+ stroke="blue" fill="none" 
+id="PathFromPFIIToFFIS" />
+<circle r="5" style="fill:blue;stroke:black;" id = "CircleForCirclePathFromPFIIToFFIS"/>
+<path d=" M 412.0,500.0 L 412.0,787.0 L 450.0,787.0 L 550.0,787.0 " 
+ stroke="none" fill="none" 
+id="CirclePathFromPFIIToFFIS" />
+<animateMotion xlink:href="#CircleForCirclePathFromPFIIToFFIS"
+  dur="5s" repeatCount="indefinite">
+  <mpath xlink:href="#CirclePathFromPFIIToFFIS" />
+</animateMotion>
+
+<path d=" M 462.0,800.0 L 462.0,1000.0 " 
+ stroke="grey" stroke-width="3" fill="none" 
+id="PathFromFFISToDistributionSystem" />
+<circle r="5" style="fill:white;stroke:black;" id = "CircleForCirclePathFromFFISToDistributionSystem"/>
+<path d=" M 462.0,800.0 L 462.0,1000.0 " 
+ stroke="none" stroke-width="3" fill="none" 
+id="CirclePathFromFFISToDistributionSystem" />
+<animateMotion xlink:href="#CircleForCirclePathFromFFISToDistributionSystem"
+  dur="5s" repeatCount="indefinite">
+  <mpath xlink:href="#CirclePathFromFFISToDistributionSystem" />
+</animateMotion>
+
+<path d=" M 487.0,800.0 L 487.0,1000.0 " 
+ stroke="yellow" stroke-width="3" fill="none" 
+id="PathFromFFIMToDistributionSystem" />
+<circle r="5" style="fill:yellow;stroke:black;" id = "CircleForCirclePathFromFFIMToDistributionSystem"/>
+<path d=" M 487.0,800.0 L 487.0,1000.0 " 
+ stroke="none" stroke-width="3" fill="none" 
+id="CirclePathFromFFIMToDistributionSystem" />
+<animateMotion xlink:href="#CircleForCirclePathFromFFIMToDistributionSystem"
+  dur="5s" repeatCount="indefinite">
+  <mpath xlink:href="#CirclePathFromFFIMToDistributionSystem" />
+</animateMotion>
+
+<path d=" M 512.0,800.0 L 512.0,1000.0 " 
+ stroke="red" stroke-width="3" fill="none" 
+id="PathFromFFIEToDistributionSystem" />
+<circle r="5" style="fill:red;stroke:black;" id = "CircleForCirclePathFromFFIEToDistributionSystem"/>
+<path d=" M 512.0,800.0 L 512.0,1000.0 " 
+ stroke="none" stroke-width="3" fill="none" 
+id="CirclePathFromFFIEToDistributionSystem" />
+<animateMotion xlink:href="#CircleForCirclePathFromFFIEToDistributionSystem"
+  dur="5s" repeatCount="indefinite">
+  <mpath xlink:href="#CirclePathFromFFIEToDistributionSystem" />
+</animateMotion>
+
+<path d=" M 537.0,800.0 L 537.0,1000.0 " 
+ stroke="blue" stroke-width="3" fill="none" 
+id="PathFromFFIIToDistributionSystem" />
+<circle r="5" style="fill:blue;stroke:black;" id = "CircleForCirclePathFromFFIIToDistributionSystem"/>
+<path d=" M 537.0,800.0 L 537.0,1000.0 " 
+ stroke="none" stroke-width="3" fill="none" 
+id="CirclePathFromFFIIToDistributionSystem" />
+<animateMotion xlink:href="#CircleForCirclePathFromFFIIToDistributionSystem"
+  dur="5s" repeatCount="indefinite">
+  <mpath xlink:href="#CirclePathFromFFIIToDistributionSystem" />
+</animateMotion>
+
+<text   x="437.0" y="1010.0">To Distribution System</text>
+</svg>
