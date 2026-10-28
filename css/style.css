@@ -1,0 +1,279 @@
+/* Styles for Jon Rynn's bibliography page. Colors match GreenNewDealPlan.com. */
+
+:root {
+    --bg: #f7f8f5;
+    --surface: #ffffff;
+    --text: #1c2420;
+    --muted: #5b6660;
+    --line: #dfe4df;
+    --link: #0b6b3a;
+    --brand: #0f3d2e;
+    --brand-text: #ffffff;
+    --brand-accent: #5fe07a;
+    --tag-bg: #e9efe9;
+
+    --radius: 12px;
+    --shadow: 0 1px 2px rgba(16, 24, 20, .06), 0 4px 16px rgba(16, 24, 20, .06);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg: #111714;
+        --surface: #18201c;
+        --text: #e6ebe7;
+        --muted: #9aa7a0;
+        --line: #2b3530;
+        --link: #6fdc95;
+        --brand: #0b2a20;
+        --tag-bg: #24302a;
+        --shadow: none;
+    }
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: "Public Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: 1.0625rem;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+}
+
+a { color: var(--link); text-underline-offset: 2px; }
+a:hover { text-decoration-thickness: 2px; }
+
+.wrap {
+    max-width: 52rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/* ---- Header ---- */
+.hero {
+    background: var(--brand);
+    color: var(--brand-text);
+    padding: 3rem 0 2.5rem;
+}
+.hero .eyebrow {
+    margin: 0 0 .5rem;
+    font-size: .8rem;
+    font-weight: 700;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: var(--brand-accent);
+}
+.hero h1 {
+    margin: 0;
+    font-size: clamp(2.4rem, 8vw, 3.5rem);
+    font-weight: 800;
+    line-height: 1.05;
+    letter-spacing: -.03em;
+}
+.hero .lead {
+    margin: 1rem 0 0;
+    max-width: 38rem;
+    font-size: 1.15rem;
+    color: rgba(255, 255, 255, .85);
+}
+.hero-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .6rem;
+    margin: 1.5rem 0 0;
+    padding: 0;
+    list-style: none;
+}
+.hero-links a {
+    display: inline-block;
+    padding: .45rem .9rem;
+    border: 1px solid rgba(255, 255, 255, .25);
+    border-radius: 999px;
+    color: #fff;
+    font-size: .9rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+.hero-links a:hover { border-color: var(--brand-accent); }
+
+/* ---- Contents ---- */
+.toc {
+    border-bottom: 1px solid var(--line);
+    background: var(--surface);
+}
+.toc ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .35rem 1.25rem;
+    margin: 0;
+    padding: .9rem 0;
+    list-style: none;
+    font-size: .9rem;
+    font-weight: 600;
+}
+.toc a { text-decoration: none; }
+.toc a:hover { text-decoration: underline; }
+
+/* ---- Sections ---- */
+main { padding: 1rem 0 3rem; }
+
+section {
+    padding-top: 2.25rem;
+    scroll-margin-top: 1rem;
+}
+section > h2 {
+    position: relative;
+    margin: 0 0 1rem;
+    padding-bottom: .6rem;
+    border-bottom: 1px solid var(--line);
+    font-size: 1.5rem;
+    font-weight: 800;
+    letter-spacing: -.015em;
+}
+section > h2::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 3.5rem;
+    height: 3px;
+    border-radius: 2px;
+    background: var(--brand-accent);
+}
+section > p { margin: 0 0 1rem; color: var(--muted); }
+
+/* A list of works. Dated lists put the year in a left column. */
+.works {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.works > li {
+    padding: .8rem 0;
+    border-bottom: 1px solid var(--line);
+}
+.works > li:last-child { border-bottom: 0; }
+
+.works.dated > li {
+    display: grid;
+    grid-template-columns: 3.5rem 1fr;
+    gap: 0 1rem;
+}
+.year {
+    font-weight: 700;
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+}
+
+.title {
+    font-weight: 700;
+    line-height: 1.35;
+}
+.meta {
+    display: block;
+    margin-top: .15rem;
+    font-size: .95rem;
+    color: var(--muted);
+}
+.extra {
+    display: block;
+    margin-top: .3rem;
+    font-size: .95rem;
+}
+
+.tag {
+    display: inline-block;
+    margin-left: .35rem;
+    padding: 0 .4rem;
+    border-radius: 4px;
+    background: var(--tag-bg);
+    color: var(--muted);
+    font-size: .7rem;
+    font-weight: 700;
+    letter-spacing: .04em;
+    vertical-align: .15em;
+    line-height: 1.5;
+}
+
+/* Book entries get a card */
+.works.books > li {
+    margin-bottom: .75rem;
+    padding: 1.1rem 1.25rem;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    background: var(--surface);
+    box-shadow: var(--shadow);
+}
+.works.books > li:last-child { border-bottom: 1px solid var(--line); }
+.works.books .title { font-size: 1.1rem; }
+
+/* Dissertation chapters */
+.chapters {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    counter-reset: ch;
+}
+.chapters li {
+    display: grid;
+    grid-template-columns: 3.5rem 1fr;
+    gap: 0 1rem;
+    padding: .45rem 0;
+    border-bottom: 1px solid var(--line);
+}
+.chapters li:last-child { border-bottom: 0; }
+.chapters .num {
+    color: var(--muted);
+    font-size: .9rem;
+    font-weight: 700;
+}
+
+.callout {
+    margin: 0 0 1rem;
+    padding: 1rem 1.25rem;
+    border-radius: var(--radius);
+    background: var(--surface);
+    border: 1px solid var(--line);
+}
+.callout .title { font-size: 1.1rem; }
+
+/* Collapsible list */
+details {
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    background: var(--surface);
+}
+details > summary {
+    padding: .85rem 1.25rem;
+    cursor: pointer;
+    font-weight: 700;
+    color: var(--link);
+}
+details[open] > summary { border-bottom: 1px solid var(--line); }
+details > .works { padding: 0 1.25rem; }
+details > .note {
+    margin: 0;
+    padding: .85rem 1.25rem 0;
+    font-size: .9rem;
+    color: var(--muted);
+}
+
+/* ---- Footer ---- */
+.site-foot {
+    border-top: 1px solid var(--line);
+    padding: 1.5rem 0 2rem;
+    font-size: .9rem;
+    color: var(--muted);
+}
+.site-foot p { margin: .25rem 0; }
+
+@media (max-width: 560px) {
+    .hero { padding: 2.25rem 0 2rem; }
+    .works.dated > li,
+    .chapters li { grid-template-columns: 1fr; }
+    .year { font-size: .85rem; }
+}
